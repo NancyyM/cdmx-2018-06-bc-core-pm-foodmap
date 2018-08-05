@@ -1,4 +1,8 @@
+const redirectPage = () => {
+	window.location = "/html_views/home.html";
+  }
 
+  setTimeout("redirectPage()", 2000);
 
 
 
