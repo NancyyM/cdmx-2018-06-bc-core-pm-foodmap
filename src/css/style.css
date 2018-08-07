@@ -1,20 +1,22 @@
-*{
-  font-family: Arial;
-  background-size: blue;
-  text-align : center;
+body {
+  background-color:#32383e;
+  overflow: hidden;
+  text-align:center;
 }
 
-h1{
-  padding-top:  3rem;
-
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-}
 
-.container{
-
-}
-
-.form-group{
+svg{
+ position:absolute;
+  width:100%;
+  height:100%;
+  visibility:hidden;
+  transform:translate(-50%, 0%);
 }
