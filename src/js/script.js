@@ -65,6 +65,6 @@ mainTl.seek(100)
 TweenMax.globalTimeScale(1.2)
 
 function redirect(){
-  window.location="../views/home.html"
+  window.location="../src/views/home.html"
 }
 setTimeout("redirect()",2030);

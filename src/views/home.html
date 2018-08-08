@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places"></script>
-  <!-- <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script> -->
+  <title>FOODIES</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.css">
 
 </head>
 <body>
- <h1>obtener lugares cercanos</h1>
- <label for="customRange1">Example range</label>
-  <input type="range" class="custom-range"  min="200" max="5000" value="500" id="range">
+ <h1>¡BIENVENIDO!</h1>
+ <h2>Obtén comida cerca de ti</h2>
+ <div class="form-inline">    
+    <input type="text" class="form-control mb-2 mr-sm-2" id="searchText" placeholder="Buscar">
 
- <div id="mapa" style="width: 950px; height: 350px;"> </div>
-
-
-<table id="tableImg" class="table table-dark">
-  
+    <button type="button" onclick="search();" class="btn btn-primary mb-2">Buscar</button>
+  </div>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th><div id="filter-name" onclick="orderName();" class="glyphicon glyphicon-chevron-up ordername-asc"></div>Nombre  </th>
+            <th>Imagen </th>  
+            <th>
+              <div id="filter-percentage" onclick="orderPercentage();" class="glyphicon glyphicon-chevron-up orderpercentage-asc"></div>Raiting
+            </th>
+            <th>Detalle</th>
+        </tr>
+    </thead>
+  <tbody  id="tableImg"></tbody>
 </table>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -48,5 +54,6 @@
   </div>
 </div>
  <script type="text/javascript" src="../js/home.js"></script>
+ <script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>

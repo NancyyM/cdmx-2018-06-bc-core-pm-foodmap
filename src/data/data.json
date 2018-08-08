@@ -1,0 +1,98 @@
+{
+    "0": {
+        "name": "Carl's Jr",
+        "img": "..src/images/hamburguesa.jpg",
+        "address": "Tonalá 43, Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Mexicana",
+        "price": "$",
+        "raiting": 4,
+        "coordinates": {
+            "lng": -99.1637556,
+            "lat": 19.4201687
+        }
+    },
+    "1": {
+        "name": "Little Caesars",
+        "img": "../src/assets/img/huset_roma.jpg",
+        "address": "Colima 256, Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Gourmet",
+        "price": "$$",
+        "raiting": 3,
+        "coordinates": {
+            "lng": -99.1640023,
+            "lat": 19.4192023
+        }
+    },
+    "2": {
+        "name": "Yuban",
+        "img": "../src/assets/img/yuban-m.jpg",
+        "address": "Colima 268, Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Mexicana",
+        "price": "$$$",
+        "raiting": 5,
+        "coordinates": {
+            "lng": -99.1640023,
+            "lat": 19.4192023
+        }
+    },
+    "3": {
+        "name": "Butcher & Sons Roma",
+        "img": "../src/assets/img/butcher1.jpg",
+        "address": "Orizaba 87, Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Hamburguesería",
+        "price": "$$$",
+        "raiting": 1,
+        "coordinates": {
+            "lng": -99.1611437,
+            "lat": 19.4193863
+        }
+    },
+    "4": {
+        "name": "Pan D'Monium Antojeria Vegana",
+        "img": "../src/assets/img/pan.jpeg",
+        "address": "Orizaba s/n, Roma Norte, Roma Nte., 06700 Cuauhtémoc, CDMX",
+        "category": "Vegana",
+        "price": "$$",
+        "raiting": 4,
+        "coordinates": {
+            "lng": -99.1610123,
+            "lat": 19.4197784
+        }
+    },
+    "5": {
+        "name": "Burro De Oro",
+        "img": "../src/assets/img/burrooro.jpg",
+        "address": "Orizaba y Colima, Roma Norte, Cuauhtémoc, 06700 Ciudad de México, D.F., Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Burritos",
+        "price": "$",
+        "raiting": 3,
+        "coordinates": {
+            "lng": -99.1606958,
+            "lat": 19.41986
+        }
+    },
+    "6": {
+        "name": "Burro De Oro",
+        "img": "../src/assets/img/burrooro.jpg",
+        "address": "Orizaba y Colima, Roma Norte, Cuauhtémoc, 06700 Ciudad de México, D.F., Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Burritos",
+        "price": "$",
+        "raiting": 5,
+        "coordinates": {
+            "lng": -99.1606958,
+            "lat": 19.41986
+        }
+    },
+    "7": {
+        "name": "Burro De Oro",
+        "img": "../src/assets/img/burrooro.jpg",
+        "address": "Orizaba y Colima, Roma Norte, Cuauhtémoc, 06700 Ciudad de México, D.F., Roma Nte., 06700 Ciudad de México, CDMX",
+        "category": "Burritos",
+        "price": "$",
+        "raiting": 5,
+        "coordinates": {
+            "lng": -99.1606958,
+            "lat": 19.41986
+        }
+    }
+}
